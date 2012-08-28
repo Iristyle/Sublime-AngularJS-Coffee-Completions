@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<script type="text/ng-template">
+${1:inline-template}
+</script>]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+  <description>Angular Script (inline template)</description>
+</snippet>

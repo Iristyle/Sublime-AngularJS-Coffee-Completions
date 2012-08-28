@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('uppercase') ${1:string}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular uppercase filter</description>
+</snippet>

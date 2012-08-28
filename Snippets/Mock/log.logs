@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$log.logs]]></content>
+	<tabTrigger>$log.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>AngularJS mock $log logs</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.toJson ${1:obj}, ${2:true|false}]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular toJson</description>
+</snippet>

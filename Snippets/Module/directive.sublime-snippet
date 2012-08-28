@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[.directive '${1:name}', ($2) ->
+	${3:// Runs during compile}
+	return (scope, elm, attrs) ->
+		${4:// Runs during render}]]></content>
+	<tabTrigger>dir</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module directive (simple)</description>
+</snippet>

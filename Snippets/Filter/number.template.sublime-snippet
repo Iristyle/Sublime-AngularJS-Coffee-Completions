@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:Number|string} | number${2::${3:fractionsizeNumber|fractionsizeString}} }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular number filter</description>
+</snippet>

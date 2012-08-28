@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('json') ${1:object}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular json filter</description>
+</snippet>

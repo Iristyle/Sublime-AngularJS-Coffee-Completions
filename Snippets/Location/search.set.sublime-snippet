@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location.search ${1:'string'|Object(hash)}${2,${3:value-override-for-namedParameter}}]]></content>
+	<tabTrigger>$location.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location search set</description>
+</snippet>

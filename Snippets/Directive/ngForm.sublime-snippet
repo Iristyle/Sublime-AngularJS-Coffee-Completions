@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<ng-form ${1:name="${2:name}"} ${3:ng-controller="${4:controller}"} ${5:ng-submit="${6:expression}"}>
+	$0
+</ng-form>]]></content>
+	<tabTrigger>ng</tabTrigger>
+  <scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular form</description>
+</snippet>

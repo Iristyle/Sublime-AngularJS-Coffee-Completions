@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('orderBy') ${1:array}, ${2:predicate-function|expression|arrayOfFunction|arrayOfExpression}${3:, ${4:reverse-true|false}}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular orderBy filter</description>
+</snippet>

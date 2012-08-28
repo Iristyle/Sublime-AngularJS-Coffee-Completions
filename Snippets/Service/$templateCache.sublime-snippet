@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$templateCache]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $templateCache</description>
+</snippet>

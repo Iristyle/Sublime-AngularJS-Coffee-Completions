@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[.\$watch '${1:expression}'${2:, (newValue, oldValue, scope) ->
+	$0
+${3:, ${4:forEquality-true|forReference-false}}}]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Scope $watch</description>
+</snippet>

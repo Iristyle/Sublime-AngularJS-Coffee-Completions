@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:array} | orderBy:${2:predicate-function|expression|arrayOfFunction|arrayOfExpression}${3::${4:reverse-true|false}} }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular orderBy filter</description>
+</snippet>

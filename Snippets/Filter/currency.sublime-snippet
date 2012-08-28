@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('currency') ${2:currency${3,${4:'symbol-eg-USD\$'}}}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular currency filter</description>
+</snippet>

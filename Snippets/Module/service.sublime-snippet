@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[${1:moduleVariable}.service ${2:name} ${3:() ->
+	${4:service constructor}}]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module service</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[\$timeout () ->
+	${1:functionToExecute}${2:
+, ${3:msDelay}}${4:
+, ${5:invokeApply-true|false}}]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $timeout</description>
+</snippet>

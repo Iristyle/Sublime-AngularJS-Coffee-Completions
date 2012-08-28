@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$q.when ${1:value|promise}]]></content>
+	<tabTrigger>$q.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $q when</description>
+</snippet>

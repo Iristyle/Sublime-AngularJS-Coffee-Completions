@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<select ng-model="${1:name|expression}" name="${2:name}"
+		${3:required
+		}${4:ng-options="${5:${6:${7:select-expression} as }${8:label-expression}${9: group by ${10:group-expression}} for ${11:local-name} in ${12:array}}${13:${14:${15:select-expression} as }${16:label-expression}${17: group by ${18:group-expression}} for (${19:key}, ${20:value}) in ${21:object}}"}>
+	$0
+</select>]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular select</description>
+</snippet>

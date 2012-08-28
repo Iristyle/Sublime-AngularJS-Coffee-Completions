@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[# Registers a new directive with the compiler
+#
+${1:moduleVariable}.directive '${2:directiveName}', (injectables) ->
+	directiveDefinitionObject =
+		priority: ${3:Number}
+		terminal: ${4:true|false}
+		scope: ${5:true|false|\{\} (object hash)}${6:
+		controller: () ->
+			${7:#controller cn func, may access \$scope, \$element, \$attrs, \$transclude}}
+		${8:require: '${9:controllerName|?controllerName|^controllerName}'}
+		restrict: '${11:E|A|C|M}'${12:
+		template: '${13:HTML}'}${14:
+		templateUrl: '${15:directive.html}'}
+		replace: ${16:true|false}
+		transclude: ${17:true|false|'element'}${18:
+		#only use to transform template DOM
+		compile: (tElement, tAttrs, transclude) ->
+			compiler =
+				pre: (scope, iElement, iAttrs, controller) ->
+					#not safe for DOM transformation
+					${19:#}
+				post: (scope, iElement, iAttrs, controller) ->
+					#safe for DOM transformation
+					${20:#}
+			return compiler
+		}${21:
+		#called IFF compile not defined
+		link: (scope, iElement, iAttrs) ->
+			#register DOM listeners or update DOM
+			${22:#}
+		}
+	return directiveDefinitionObject
+]]></content>
+	<tabTrigger>dir</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module directive (complete)</description>
+</snippet>

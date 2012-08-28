@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$httpBackend.expect '${1:GET|POST|HEAD|JSONP|PUT|DELETE|PATCH}', ${2:'url'|/RegExp/}${3:
+	,${4:'HTTPRequestBody'}}${5:
+	,${6:HTTPheaders|(header) ->}}]]></content>
+	<tabTrigger>.expect</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend expect</description>
+</snippet>

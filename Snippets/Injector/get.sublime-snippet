@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$injector.get '${1:serviceName}']]></content>
+	<tabTrigger>$injector.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $injector get</description>
+</snippet>

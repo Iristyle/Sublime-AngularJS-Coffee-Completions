@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$provide.value '${1:name}', ${2:value}]]></content>
+	<tabTrigger>$provide.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $provide value</description>
+</snippet>

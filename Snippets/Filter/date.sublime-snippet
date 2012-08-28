@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('date') ${1:Date|number|'string'}${2:,'${3:medium|short|fullDate|longDate|mediumDate|shortDate|mediumTime|shortTime|formatString}'}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular date filter</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.flush ${1:count}]]></content>
+	<tabTrigger>.flush</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend flush</description>
+</snippet>

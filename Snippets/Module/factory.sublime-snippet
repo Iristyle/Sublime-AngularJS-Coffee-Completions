@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[${1:moduleVariable}.factory ${2:name}, () ->
+	${3:provider function}]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module factory</description>
+</snippet>

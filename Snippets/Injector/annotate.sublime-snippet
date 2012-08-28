@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$injector.annotate () ->
+	${1:#a function to annotate}
+]]></content>
+	<tabTrigger>$injector.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $injector annotate</description>
+</snippet>

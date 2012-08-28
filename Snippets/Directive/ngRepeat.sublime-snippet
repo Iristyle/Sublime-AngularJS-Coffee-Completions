@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ng-repeat="${1:(${2:key}, ${3:value}) in ${4:expression}}${5:${6:variable} in ${7:expression}}"]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html meta.tag</scope>
+  <description>Angular ngRepeat</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[route =
+  controller: () ->
+    #controller function${1:
+  template: '${2:string}'}${3:
+  templateUrl: '${4:url}'}${5:
+  resolve:
+    '${6:dependencyName}' : ${7:serviceName|factory-function}}${8:
+  redirectTo: ${9:path|function}}${10:
+  reloadOnSearch: ${11:true|false}}
+\$routeProvider.when '${12:path}', route]]></content>
+  <tabTrigger>$routeProvider.</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular $routeProvider when</description>
+</snippet>

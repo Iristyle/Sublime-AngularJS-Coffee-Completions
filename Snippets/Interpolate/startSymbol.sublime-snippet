@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$interpolate.startSymbol()]]></content>
+	<tabTrigger>$interpolate.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $interpolate startSymbol</description>
+</snippet>

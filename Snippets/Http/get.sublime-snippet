@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$http.delete '${1:url}'${2:,${3:config}}]]></content>
+	<tabTrigger>$http.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http delete</description>
+</snippet>

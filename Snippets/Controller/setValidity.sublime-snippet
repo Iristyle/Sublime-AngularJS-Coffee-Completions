@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$setValidity ${1:validationErrorKey} ${2:isValid-true|false}]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Controller $setValidity</description>
+</snippet>

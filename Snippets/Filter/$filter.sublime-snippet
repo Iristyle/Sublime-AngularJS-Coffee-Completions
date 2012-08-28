@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter]]></content>
+  <tabTrigger>$</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular filter</description>
+</snippet>

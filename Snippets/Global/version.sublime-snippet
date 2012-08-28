@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.version]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular version</description>
+</snippet>

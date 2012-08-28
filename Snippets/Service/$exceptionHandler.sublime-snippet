@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$exceptionHandler ${1:Error}${2:, '${3:cause}'}]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $exceptionHandler</description>
+</snippet>

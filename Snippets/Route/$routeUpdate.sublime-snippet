@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[.\$routeUpdate]]></content>
+  <tabTrigger>.$</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular Route $routeUpdate</description>
+</snippet>

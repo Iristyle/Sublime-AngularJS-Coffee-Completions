@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[<ng-switch on="${1:expression}">
+	<ng-switch when="${2:value}">
+	</ng-switch>${3:
+	<ng-switch-when="${4:value}">
+	</ng-switch>}${5:
+	<ng-switch-default>
+	</ng-switch-default>}
+</ng-switch>]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular ngSwitch</description>
+</snippet>

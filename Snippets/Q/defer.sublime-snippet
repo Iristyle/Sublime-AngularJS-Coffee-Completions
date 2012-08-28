@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$q.defer]]></content>
+	<tabTrigger>$q.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $q defer</description>
+</snippet>

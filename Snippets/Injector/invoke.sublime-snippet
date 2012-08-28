@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$injector.invoke ${1:function}${2:,${3:self}}${4:,${5:optional-locals}}]]></content>
+  <tabTrigger>$injector.</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular $injector invoke</description>
+</snippet>

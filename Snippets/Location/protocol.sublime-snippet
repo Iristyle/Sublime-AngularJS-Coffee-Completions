@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location.protocol()]]></content>
+	<tabTrigger>$location.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location protocol</description>
+</snippet>

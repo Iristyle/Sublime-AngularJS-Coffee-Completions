@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[\$resource '${1:/action/:param}'${2:,
+	\{ ${3:a: defaulta, b: defaultb} \}}${4:,
+	\{
+		${5:ActionName}:
+			method: '${6:GET|POST|PUT|DELETE|JSONP|PATCH}'
+			${7:params: \{ ${8:a: preBound, b: preBound} \}}
+			${9:isArray: ${10:true|false}}
+		${11:,
+		${12:ActionName2}:
+			method: '${13:GET|POST|PUT|DELETE|JSONP|PATCH}'
+			${14:params: \{ ${15:a: preBound, b: preBound} \}}
+			${16:isArray: ${17:true|false}} }
+	\}
+}]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $resource</description>
+</snippet>

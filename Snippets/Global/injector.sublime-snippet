@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.injector ['${1:module1}'${3:, '${4:module2}'}]]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular injector</description>
+</snippet>

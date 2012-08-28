@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$parsers]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Controller $parsers</description>
+</snippet>

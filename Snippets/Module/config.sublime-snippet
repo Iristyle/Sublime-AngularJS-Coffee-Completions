@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[${1:moduleVariable}.config () ->
+	#exec on load
+	$0]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module config</description>
+</snippet>

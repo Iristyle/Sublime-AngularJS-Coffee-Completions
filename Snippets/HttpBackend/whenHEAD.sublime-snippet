@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[.whenHEAD ${1:'url'|/RegExp/}${2:
+	,${4:HTTPheaders|(header) ->}}]]></content>
+	<tabTrigger>.when</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend whenHEAD</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$provide.provider '${1:name}', () ->
+	${2:#$constructor function passed to $injector.instantiate}
+]]></content>
+	<tabTrigger>$provide.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $provide provider</description>
+</snippet>

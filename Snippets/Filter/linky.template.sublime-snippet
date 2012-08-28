@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:string} | linky }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular linky filter</description>
+</snippet>

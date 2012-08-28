@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<input type="checkbox" ng-model="${1:expression}"
+	${2:name="${3:name}"
+	}${4:ng-true-value="${5:value-when-selected}"
+	}${6:ng-false-alue="${7:value-when-not-selected}"
+	}${8:ng-change="${9:expression}"
+}/>]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular input [checkbox]</description>
+</snippet>

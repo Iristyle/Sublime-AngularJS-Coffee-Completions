@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.equal ${1:object1}, ${2:object2}]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular equal</description>
+</snippet>

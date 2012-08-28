@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.verifyNoOutstandingRequest()]]></content>
+	<tabTrigger>.verify</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend verifyNoOutstandingRequest</description>
+</snippet>

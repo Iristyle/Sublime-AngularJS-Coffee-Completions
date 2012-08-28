@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$sanitize '${1:HTML}']]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $sanitize</description>
+</snippet>

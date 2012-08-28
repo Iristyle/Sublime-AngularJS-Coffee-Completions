@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location.replace()]]></content>
+	<tabTrigger>$location.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location replace</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$http.defaults]]></content>
+	<tabTrigger>$http.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http defaults</description>
+</snippet>

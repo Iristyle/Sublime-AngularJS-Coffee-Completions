@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[<input type="number" ng-model="${1:expression}"
+	${2:name="${3:name}"
+	}${3:min="${4:min-value}"
+	}${5:max="${6:max-value}"
+	}${4:required
+	}${5:ng-pattern="${6:/inline-regex/|regexp-from-scope}"
+	}${7:ng-change="${8:expression}"
+}/>]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular input [number]</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.expectGET ${1:'url'|/RegExp/}${2:,${3:HTTPheaders|(header) ->}}]]></content>
+	<tabTrigger>.expect</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend expectGET</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location.path '${1:path}']]></content>
+	<tabTrigger>$location.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location path set</description>
+</snippet>

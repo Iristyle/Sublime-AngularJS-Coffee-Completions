@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:expression} | filter:${2:string|Object|() -> } }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular filter filter</description>
+</snippet>

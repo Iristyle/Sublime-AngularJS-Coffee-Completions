@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[.\$on ${1:name}, (evt) ->
+	${2:event listener function}]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Scope $on</description>
+</snippet>

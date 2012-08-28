@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[angular.forEach ${1:values}, (${2:value}, ${3:key}) ->
+	${4:# ...}]]></content>
+	<tabTrigger>for</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular forEach</description>
+</snippet>

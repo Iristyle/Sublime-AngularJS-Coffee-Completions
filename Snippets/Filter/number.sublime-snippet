@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('number') ${1:Number|string}${2::${3:fractionsizeNumber|fractionsizeString}}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular number filter</description>
+</snippet>

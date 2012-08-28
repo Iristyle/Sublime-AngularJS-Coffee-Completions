@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$controller ${1:(() ->
+  ${2:#constructor function - name also accepted}
+)}, ${3:locals-to-inject}]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $controller</description>
+</snippet>

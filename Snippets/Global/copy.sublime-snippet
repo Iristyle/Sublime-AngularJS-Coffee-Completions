@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.copy ${1:source}${2:, ${3:optional-destination}}]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular copy</description>
+</snippet>

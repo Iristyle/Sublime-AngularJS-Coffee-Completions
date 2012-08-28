@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location.hash '${1:hash}']]></content>
+	<tabTrigger>$location.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location hash set</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[${1:moduleVariable}.controller ${2:name}, () ->
+	${3:constructor function}]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module controller</description>
+</snippet>

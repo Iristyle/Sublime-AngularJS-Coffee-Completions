@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ng-cloak"]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html meta.tag</scope>
+  <description>Angular ngCloak</description>
+</snippet>

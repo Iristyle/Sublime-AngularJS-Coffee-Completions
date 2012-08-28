@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$setViewValue ${1:value}]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Controller $setViewValue</description>
+</snippet>

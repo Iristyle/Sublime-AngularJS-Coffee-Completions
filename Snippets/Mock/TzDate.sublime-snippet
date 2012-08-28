@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.mock.TzDate ${1:offsetnum}, '${2:timestamp}']]></content>
+  <tabTrigger>mock</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular mock TzDate</description>
+</snippet>

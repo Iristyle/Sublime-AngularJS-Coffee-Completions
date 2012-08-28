@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$broadcast ${1:eventName}${2:,${3:optional-arg1},${4:optional-arg1}}]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Scope $broadcast</description>
+</snippet>

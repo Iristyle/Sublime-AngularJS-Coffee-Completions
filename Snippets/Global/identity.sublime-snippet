@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.identity]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular identity</description>
+</snippet>

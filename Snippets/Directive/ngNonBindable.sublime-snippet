@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ng-non-bindable]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html meta.tag</scope>
+  <description>Angular ngNonBindable</description>
+</snippet>

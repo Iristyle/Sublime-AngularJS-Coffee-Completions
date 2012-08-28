@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[.error (data, status) ->
+	${1:error function}]]></content>
+	<tabTrigger>.error</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http error</description>
+</snippet>

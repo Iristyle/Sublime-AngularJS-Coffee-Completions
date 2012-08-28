@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.bootstrap ${1:el}${2:, ${3:optional-modules}}]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular bootstrap</description>
+</snippet>

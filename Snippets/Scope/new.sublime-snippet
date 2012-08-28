@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[.\$new ${1:isolate-true|false}]]></content>
+  <tabTrigger>.$</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular Scope $new</description>
+</snippet>

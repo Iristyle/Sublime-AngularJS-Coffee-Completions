@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$dirty]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Controller $dirty</description>
+</snippet>

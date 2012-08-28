@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location.url '${1:url-without-base-prefix}']]></content>
+	<tabTrigger>$location.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location url set</description>
+</snippet>

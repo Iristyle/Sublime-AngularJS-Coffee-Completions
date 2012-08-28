@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<ng-view>
+$0
+</ng-view>]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+  <description>Angular ngView</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.extend ${1:destinationObject}, ${2:sourceObject}]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular extend</description>
+</snippet>

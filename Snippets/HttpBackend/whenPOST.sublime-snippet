@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[.whenPOST ${1:'url'|/RegExp/}${2:
+	,${3:'HTTPRequestBody'}}${4:
+	,${5:HTTPheaders|(header) ->}}]]></content>
+	<tabTrigger>.when</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend whenPOST</description>
+</snippet>

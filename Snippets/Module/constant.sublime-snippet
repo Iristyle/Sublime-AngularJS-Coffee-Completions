@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[${1:moduleVariable}.constant ${2:name}, ${3:value}]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module constant</description>
+</snippet>

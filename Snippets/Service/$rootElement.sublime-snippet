@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$rootElement]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $rootElement</description>
+</snippet>

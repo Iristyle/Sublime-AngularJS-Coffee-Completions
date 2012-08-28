@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$render()]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Controller $render</description>
+</snippet>

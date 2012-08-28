@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$compile ${1:string|DOMElement}, ((scope) ->
+	${2:#transclude function}
+), ${3:maxPriorityNumber}]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $compile</description>
+</snippet>

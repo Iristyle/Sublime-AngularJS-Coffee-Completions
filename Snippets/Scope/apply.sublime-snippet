@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[.\$apply ${1:(scope) ->
+	${2:function body (or delete function and use expression)}}]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Scope $apply</description>
+</snippet>

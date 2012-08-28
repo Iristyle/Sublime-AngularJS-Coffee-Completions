@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.\$error]]></content>
+	<tabTrigger>.$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Controller $error</description>
+</snippet>

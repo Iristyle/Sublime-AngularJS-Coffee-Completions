@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<ng-pluralize count="${1:variable|expression}" ${2:offset="${3:number}"}
+	when="${4:${5:'0': '${6:template}'}${7:,
+	'1': '${8:template}'}${9:,
+	'2': '${10:template}'}${11:,
+	'one': '${12:template}'}${13:,
+	'other': '${14:template}'}}" />]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular ngPluralize</description>
+</snippet>

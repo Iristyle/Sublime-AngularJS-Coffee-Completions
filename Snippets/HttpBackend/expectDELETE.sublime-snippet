@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.expectDELETE ${1:'url'|/RegExp/}${2:,${3:HTTPheaders|match function (header) ->}}]]></content>
+	<tabTrigger>.expect</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $httpBackend expectDELETE</description>
+</snippet>

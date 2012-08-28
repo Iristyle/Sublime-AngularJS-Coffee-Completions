@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[.otherwise ${1:Object}]]></content>
+  <tabTrigger>.other</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular $routeProvider otherwise</description>
+</snippet>

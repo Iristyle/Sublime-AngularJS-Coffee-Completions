@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$provide.service '${1:name}', () ->
+	${2:#$constructor function}
+]]></content>
+	<tabTrigger>$provide.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $provide service</description>
+</snippet>

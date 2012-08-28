@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<ng-include src="${1:expression}"${2: onload="${3:expression}"}${4: autoscroll="${5:expression|true|false}"}>
+	$0
+</ng-include>]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular ngInclude (element)</description>
+</snippet>

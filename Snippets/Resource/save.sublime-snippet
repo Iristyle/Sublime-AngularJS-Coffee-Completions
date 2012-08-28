@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[.\$save ${1:\{ ${2:paramKey}: ${3:paramValue} \},}${4:postData}${5:, () ->
+  ${6:#success function}
+,
+() ->
+  ${7:#error function}}
+]]></content>
+  <tabTrigger>.$</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular $resource save</description>
+</snippet>

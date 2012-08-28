@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\$filter('${1:currency|date|filter|json|limitTo|linky|lowercase|number|orderBy|uppercase}') ${2:input}${3:, ${4:parameter}}]]></content>
+  <tabTrigger>$filter</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular generic filter</description>
+</snippet>

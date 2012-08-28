@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$http.pendingRequests]]></content>
+	<tabTrigger>$http.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http pendingRequests</description>
+</snippet>

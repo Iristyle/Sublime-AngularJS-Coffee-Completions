@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[<textarea ng-model="${1:name|expression}"
+	${2:name="${3:name}"
+	}${4:required
+	}${5:ng-minlength="${6:number}"
+	}${7:ng-maxlength="${8:number}"
+	}${9:ng-pattern="${10:/inline-regex/|regexp-from-scope}"
+	}${11:ng-change="${12:expression}"
+}></textarea>]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular textarea</description>
+</snippet>

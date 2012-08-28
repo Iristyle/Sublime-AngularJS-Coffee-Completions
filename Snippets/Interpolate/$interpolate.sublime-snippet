@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$interpolate]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $interpolate</description>
+</snippet>

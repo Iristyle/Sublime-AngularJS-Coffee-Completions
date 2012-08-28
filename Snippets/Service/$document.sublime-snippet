@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$document]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $document</description>
+</snippet>

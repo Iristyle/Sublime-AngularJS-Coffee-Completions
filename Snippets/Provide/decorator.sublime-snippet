@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$provide.decorator '${1:name}', () ->
+	${2:#function body to decorate}
+]]></content>
+	<tabTrigger>$provide.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $provide decorator</description>
+</snippet>

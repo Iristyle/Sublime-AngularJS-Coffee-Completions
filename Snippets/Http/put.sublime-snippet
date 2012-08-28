@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$http.put '${1:url}', ${2:data}${3:,${4:config}}]]></content>
+	<tabTrigger>$http.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http put</description>
+</snippet>

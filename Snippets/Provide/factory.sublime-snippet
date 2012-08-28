@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$provide.factory '${1:name}', () ->
+	${2:#$getFn for instance creation}
+]]></content>
+	<tabTrigger>$provide.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $provide factory</description>
+</snippet>

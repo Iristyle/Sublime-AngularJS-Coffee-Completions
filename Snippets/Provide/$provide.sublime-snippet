@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$provide]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $provide</description>
+</snippet>

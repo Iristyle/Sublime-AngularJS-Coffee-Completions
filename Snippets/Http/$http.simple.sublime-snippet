@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[\$http \{ method: '${1:GET|HEAD|POST|PUT|DELETE|JSONP}', url: '${2:url}'${3:, data: ${4:data}}\}
+.Success (status, response) ->
+	${5:success handler}
+.Error (status, response) ->
+	${6:error handler}
+]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http simple</description>
+</snippet>

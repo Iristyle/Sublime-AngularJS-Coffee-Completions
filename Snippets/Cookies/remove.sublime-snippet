@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$cookieStore.remove '${1:key}']]></content>
+	<tabTrigger>$cookieStore.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $cookieStore remove</description>
+</snippet>

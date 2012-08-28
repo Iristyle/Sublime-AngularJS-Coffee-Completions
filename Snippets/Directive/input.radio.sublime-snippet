@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<input type="radio" ng-model="${1:expression}"
+	value="${2:selected-value}"
+	${3:name="${4:name}"
+	}${5:ng-change="${6:expression}"
+}/>]]></content>
+	<tabTrigger>ng</tabTrigger>
+  <scope>text.html -source -meta.tag, punctuation.definition.tag.begin</scope>
+	<description>Angular input [radio]</description>
+</snippet>

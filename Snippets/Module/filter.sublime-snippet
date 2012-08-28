@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[${1:moduleVariable}.filter ${2:name}, () ->
+	${3:filter function}]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular Module filter</description>
+</snippet>

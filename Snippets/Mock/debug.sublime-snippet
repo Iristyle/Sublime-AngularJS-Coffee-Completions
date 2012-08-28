@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angular.mock.debug ${1:object}]]></content>
+  <tabTrigger>mock</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>Angular mock debug</description>
+</snippet>

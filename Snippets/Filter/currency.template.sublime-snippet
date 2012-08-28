@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:expression} | ${2:currency${3::${4:symbol-eg-USD\$}}} }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular currency filter</description>
+</snippet>

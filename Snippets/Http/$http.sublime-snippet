@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[config =
+	method: '${1:GET|HEAD|POST|PUT|DELETE|JSONP|PATCH}'
+	url: '${2:absolute-or-relative-url}'${3:
+	params: ${4:map-of-strings}}${5:
+	data: ${6:string|Object}}${7:
+	headers: ${8:map-of-strings}}${9:
+	transformRequest: (data, headersGetter) ->
+		#return serialized version}${10:
+	transformResponse: (data, headersGetter) ->
+		#return serialized version}${11:
+	cache: ${12:true|false|Cache}}${13:
+	timeout: ${14:msTimeout}}${15:
+	withCredentials: ${16:true|false}}
+\$http config]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $http (w/ config)</description>
+</snippet>

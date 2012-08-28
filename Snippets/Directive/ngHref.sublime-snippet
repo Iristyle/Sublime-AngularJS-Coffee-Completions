@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ng-href="{{ ${1:template} }}"]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html meta.tag</scope>
+  <description>Angular ngHref</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ng-bind-html-unsafe="${1:expresion}"]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html meta.tag</scope>
+  <description>Angular ngBindHtmlUnsafe</description>
+</snippet>

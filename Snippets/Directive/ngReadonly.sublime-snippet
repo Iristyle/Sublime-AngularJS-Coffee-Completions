@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ng-readonly="${1:expression}"]]></content>
+  <tabTrigger>ng</tabTrigger>
+  <scope>text.html meta.tag</scope>
+  <description>Angular ngReadonly</description>
+</snippet>

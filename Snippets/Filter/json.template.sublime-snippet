@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:object} | json }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular json filter</description>
+</snippet>

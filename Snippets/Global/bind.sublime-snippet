@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[${1:bindFunction} = () ->
+	# bind stuff
+	$0
+angular.bind ${3:self|context}, ${1}${4:, ${5:optional-args}}]]></content>
+	<tabTrigger>ng</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular bind</description>
+</snippet>

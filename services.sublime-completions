@@ -1,0 +1,63 @@
+{
+  "scope": "source.coffee,source.js,source.js.embedded.html",
+
+  "completions":
+  [
+    "$anchorScroll",
+    "$cacheFactory",
+    "$compile",
+    "$controller",
+    "$document",
+    "$exceptionHandler",
+    "$filter",
+    "$http",
+    "$httpBackend",
+    "$interpolate",
+    "$locale",
+    "$location",
+    "$log",
+    "$parse",
+    "$q",
+    "$rootElement",
+    "$rootScope",
+    "$route",
+    "$routeParams",
+    "$templateCache",
+    "$timeout",
+    "$window",
+
+    "$apply",
+    "$broadcast",
+    "$destroy",
+    "$digest",
+    "$emit",
+    "$eval",
+    "$evalAsync",
+    "$new",
+    "$on",
+    "$watch",
+    "$id",
+
+    "$render",
+    "$setValidity",
+    "$setViewValue",
+    "$viewValue",
+    "$modelValue",
+    "$parsers",
+    "$formatters",
+    "$error",
+    "$pristine",
+    "$dirty",
+    "$valid",
+    "$invalid",
+
+    "$injector",
+    "$provide",
+
+    "$cookies",
+    "$cookieStore",
+
+    "$resource",
+    "$sanitize"
+  ]
+}

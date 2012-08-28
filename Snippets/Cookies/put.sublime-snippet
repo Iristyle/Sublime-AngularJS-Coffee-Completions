@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$cookieStore.put '${1:key}', '${2:value}']]></content>
+	<tabTrigger>$cookieStore.</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $cookieStore put</description>
+</snippet>

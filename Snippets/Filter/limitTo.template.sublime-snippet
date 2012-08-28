@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[{{ ${1:object} | limitTo:${2:string-limit|Number-limit} }}]]></content>
+  <tabTrigger>fil</tabTrigger>
+  <scope>text.html</scope>
+  <description>Angular limitTo filter</description>
+</snippet>

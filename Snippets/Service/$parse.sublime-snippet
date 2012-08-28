@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$parse '${1:expression-to-compile}']]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $parse</description>
+</snippet>

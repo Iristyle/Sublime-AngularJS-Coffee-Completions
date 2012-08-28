@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$location]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $location</description>
+</snippet>

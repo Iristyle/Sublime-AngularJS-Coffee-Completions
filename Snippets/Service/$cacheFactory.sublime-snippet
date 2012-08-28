@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$cacheFactory '${1:cacheId}'${2:, \{ Capacity: ${3:Number} \}} ]]></content>
+	<tabTrigger>$</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular $cacheFactory</description>
+</snippet>

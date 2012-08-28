@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[angular.mock.inject ${1:object}, (${2:fnparam1}${3:, ${4:fnparam2}}) ->
+	$0
+${5:, (${6:fnparam1}${7:, ${8:fnparam2}}) ->
+	}]]></content>
+	<tabTrigger>mock</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Angular mock inject (Jasmine only)</description>
+</snippet>
