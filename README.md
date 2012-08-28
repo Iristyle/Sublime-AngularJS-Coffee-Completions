@@ -26,7 +26,7 @@ required in HTML. (This is potentially related to other installed packages)
 
 As soon as the pull request is accepted
 Use [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
-and select AngularJS (CoffeeScript)
+and select `AngularJS (CoffeeScript)`
 
 ### Manual tweaking of Package Control
 
