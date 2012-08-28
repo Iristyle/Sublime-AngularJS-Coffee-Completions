@@ -11,17 +11,49 @@ The snippets intentionally overlap with one another, so that only a few simple
 mnemonics require memorization, rather than hundreds.
 
 Using this approach, instead of providing a `xyz`,`TAB` style snippet expansion,
-`xyz`,`TAB` will load a context-sensitive Sublime completion overlay where the appropriate snippet can be picked with the arrow keys and an additional TAB. For example, `ng`,`TAB` in an HTML tag will show all the available ng-* attributes.
+`xyz`,`TAB` will load a context-sensitive Sublime completion overlay where the
+appropriate snippet can be picked with the arrow keys and an additional TAB. For
+example, `ng`,`TAB` in an HTML tag will show all the available ng-* attributes.
 This is a little slower approach than the one typically taken with snippets, but
 decreases the learning curve over the API surface.  Note that Sublime appears to
 have different conditions for showing the completion overlay.  Simply typing
-`ng` in a CoffeeScript document will show the completion menu, while the tab is
+`ng` in a CoffeeScript document will show the completion menu, while the `TAB` is
 required in HTML. (This is potentially related to other installed packages)
 
 ## Installation
 
+### Automatic
+
+As soon as the pull request is accepted
 Use [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
-and select AngularJS-Coffee
+and select AngularJS (CoffeeScript)
+
+### Manual tweaking of Package Control
+
+Package control can be pointed at this GitHub repository until this package is
+made available through the main directory.
+Add to `Packages\User\Package Control.sublime-settings`, under the appropriate
+keys in the JSON config file.
+
+This file can be opened via the Sublime menu:
+`Preferences -> Package Settings -> Package Control -> Settings -- User`
+
+```javascript
+{
+  "installed_packages":
+  [
+    "AngularJS (CoffeeScript)"
+  ],
+  "package_name_map":
+  {
+    "Sublime-AngularJS-Coffee-Completions": "AngularJS (CoffeeScript)"
+  },
+  "repositories":
+  [
+    "https://github.com/EastPoint/Sublime-AngularJS-Coffee-Completions"
+  ]
+}
+```
 
 ### Keybindings
 
@@ -82,6 +114,11 @@ after it's been deleted. In practical terms, this means it may require extra
 `TAB` presses to send the cursor to the next replacement point after an
 `optional` block has been deleted.
 
+__Please vote up issues [124225][124225] and [124217][124217] if you want to see
+these issues resolved!__
+
+[124225]: http://sublimetext.userecho.com/topic/124225-/
+[124217]: http://sublimetext.userecho.com/topic/124217-/
 
 Hopefully a future version of Sublime will address these issues, but for now
 there are some work-arounds.
@@ -113,10 +150,10 @@ parameters, the `|` has been used by convention - i.e. `true|false`
 #### tl;dr Version
 
 These are the only triggers used - `$`, `.$`, `ng`, `for`, `is`, `mod`, `dir`,
-`fil`, `mock`, `$cookieStore`, `$filter.`, `$http.`, `$injector.`,
-`$interpolate.`, `$location.`, `$log.`, `$provide.`, `$q.`, `$route.`,
-`$routeProvider.`, `.error`, `.expect`, `.flush`, `.other`, `.reset`,
-`.success`, `.verify` and `.when` ... PHEW
+`fil`, `mock`, `$cookieStore`, `$filter.`, `$http.`, `$httpBackend.`,
+`$injector.`, `$interpolate.`, `$location.`, `$log.`, `$provide.`, `$q.`,
+`$route.`, `$routeProvider.`, `.error`, `.expect`, `.other`, `.success` and
+`.when` ... PHEW
 
 
 ### Directive
@@ -476,29 +513,29 @@ Covers both [FormController][FormController] and [NgModelController][NgModelCont
 Note that `.expect` and `.when` are designed to chain, so we don't bind to
 `$httpBackend`
 
-|              HttpBackend Methods             |      Binding    |    Context   |
-| :------------------------------------------- | --------------: | ------------:|
-| [$httpBackend][$httpBackend]                 |       `$`,`TAB` | CoffeeScript |
-| [expect][$h.expect]                          | `.expect`,`TAB` | CoffeeScript |
-| [expectDELETE][$h.expectDELETE]              | `.expect`,`TAB` | CoffeeScript |
-| [expectGET][$h.expectGET]                    | `.expect`,`TAB` | CoffeeScript |
-| [expectHEAD][$h.expectHEAD]                  | `.expect`,`TAB` | CoffeeScript |
-| [expectJSONP][$h.expectJSONP]                | `.expect`,`TAB` | CoffeeScript |
-| [expectPATCH][$h.expectPATCH]                | `.expect`,`TAB` | CoffeeScript |
-| [expectPOST][$h.expectPOST]                  | `.expect`,`TAB` | CoffeeScript |
-| [expectPUT][$h.expectPUT]                    | `.expect`,`TAB` | CoffeeScript |
-| [flush][$h.flush]                            |  `.flush`,`TAB` | CoffeeScript |
-| [resetExpectations][$h.reset]                |  `.flush`,`TAB` | CoffeeScript |
-| [verifyNoOutstandingExceptions][$h.verifyEx] | `.verify`,`TAB` | CoffeeScript |
-| [verifyNoOutstandingRequests][$h.verifyReqs] | `.verify`,`TAB` | CoffeeScript |
-| [when][$h.when]                              |  `.when`,`TAB`  | CoffeeScript |
-| [whenDELETE][$h.whenDELETE]                  |  `.when`,`TAB`  | CoffeeScript |
-| [whenGET][$h.whenGET]                        |  `.when`,`TAB`  | CoffeeScript |
-| [whenHEAD][$h.whenHEAD]                      |  `.when`,`TAB`  | CoffeeScript |
-| [whenJSONP][$h.whenJSONP]                    |  `.when`,`TAB`  | CoffeeScript |
-| [whenPATCH][$h.whenPATCH]                    |  `.when`,`TAB`  | CoffeeScript |
-| [whenPOST][$h.whenPOST]                      |  `.when`,`TAB`  | CoffeeScript |
-| [whenPUT][$h.whenPUT]                        |  `.when`,`TAB`  | CoffeeScript |
+|              HttpBackend Methods             |         Binding       |    Context   |
+| :------------------------------------------- | --------------------: | ------------:|
+| [$httpBackend][$httpBackend]                 |             `$`,`TAB` | CoffeeScript |
+| [expect][$h.expect]                          |       `.expect`,`TAB` | CoffeeScript |
+| [expectDELETE][$h.expectDELETE]              |       `.expect`,`TAB` | CoffeeScript |
+| [expectGET][$h.expectGET]                    |       `.expect`,`TAB` | CoffeeScript |
+| [expectHEAD][$h.expectHEAD]                  |       `.expect`,`TAB` | CoffeeScript |
+| [expectJSONP][$h.expectJSONP]                |       `.expect`,`TAB` | CoffeeScript |
+| [expectPATCH][$h.expectPATCH]                |       `.expect`,`TAB` | CoffeeScript |
+| [expectPOST][$h.expectPOST]                  |       `.expect`,`TAB` | CoffeeScript |
+| [expectPUT][$h.expectPUT]                    |       `.expect`,`TAB` | CoffeeScript |
+| [flush][$h.flush]                            | `$httpBackend.`,`TAB` | CoffeeScript |
+| [resetExpectations][$h.reset]                | `$httpBackend.`,`TAB` | CoffeeScript |
+| [verifyNoOutstandingExceptions][$h.verifyEx] | `$httpBackend.`,`TAB` | CoffeeScript |
+| [verifyNoOutstandingRequests][$h.verifyReqs] | `$httpBackend.`,`TAB` | CoffeeScript |
+| [when][$h.when]                              |         `.when`,`TAB` | CoffeeScript |
+| [whenDELETE][$h.whenDELETE]                  |         `.when`,`TAB` | CoffeeScript |
+| [whenGET][$h.whenGET]                        |         `.when`,`TAB` | CoffeeScript |
+| [whenHEAD][$h.whenHEAD]                      |         `.when`,`TAB` | CoffeeScript |
+| [whenJSONP][$h.whenJSONP]                    |         `.when`,`TAB` | CoffeeScript |
+| [whenPATCH][$h.whenPATCH]                    |         `.when`,`TAB` | CoffeeScript |
+| [whenPOST][$h.whenPOST]                      |         `.when`,`TAB` | CoffeeScript |
+| [whenPUT][$h.whenPUT]                        |         `.when`,`TAB` | CoffeeScript |
 
 [$httpBackend]: http://docs.angularjs.org/api/ngMock.$httpBackend
 [$h.expect]: http://docs.angularjs.org/api/ngMock.$httpBackend#expect

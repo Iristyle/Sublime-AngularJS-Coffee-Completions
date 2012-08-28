@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[.resetExpectations()]]></content>
-	<tabTrigger>.reset</tabTrigger>
+	<tabTrigger>$httpBackend.</tabTrigger>
 	<scope>source.coffee</scope>
 	<description>Angular $httpBackend resetExpectations</description>
 </snippet>
