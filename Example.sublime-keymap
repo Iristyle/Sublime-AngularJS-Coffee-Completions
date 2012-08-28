@@ -1,4 +1,4 @@
 [
   { "keys": ["shift+f3"], "command": "show_overlay",
-    "args": {"overlay": "command_palette", "text": "AngularJS"} }
+    "args": {"overlay": "command_palette", "text": "Angular"} }
 ]
