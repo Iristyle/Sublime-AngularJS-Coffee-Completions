@@ -164,13 +164,13 @@ All HTML based directives are keyed off the `ng`,`TAB` binding.
 | :------------------------------------- | ---------------: | --------------:|
 | [form][form]                           |      `ng`,`TAB`  |   HTML Element |
 | [input][input]                         |      `ng`,`TAB`  |   HTML Element |
-| [input-check][input-check]             |      `ng`,`TAB`  |   HTML Element |
-| [input-email][input-email]             |      `ng`,`TAB`  |   HTML Element |
-| [input-number][input-number]           |      `ng`,`TAB`  |   HTML Element |
-| [input-radio][input-radio]             |      `ng`,`TAB`  |   HTML Element |
-| [input-text][input-text]               |      `ng`,`TAB`  |   HTML Element |
-| [input-url][input-url]                 |      `ng`,`TAB`  |   HTML Element |
-| [input-email][input-email]             |      `ng`,`TAB`  |   HTML Element |
+| [input \[checkbox\]][input-check]      |      `ng`,`TAB`  |   HTML Element |
+| [input \[email\]][input-email]         |      `ng`,`TAB`  |   HTML Element |
+| [input \[number\]][input-number]       |      `ng`,`TAB`  |   HTML Element |
+| [input \[radio\]][input-radio]         |      `ng`,`TAB`  |   HTML Element |
+| [input \[text\]][input-text]           |      `ng`,`TAB`  |   HTML Element |
+| [input \[url\]][input-url]             |      `ng`,`TAB`  |   HTML Element |
+| [input \[email\]][input-email]         |      `ng`,`TAB`  |   HTML Element |
 | [ngApp][ngApp]                         |      `ng`,`TAB`  | HTML Attribute |
 | [ngBind][ngBind]                       |      `ng`,`TAB`  | HTML Attribute |
 | [ngBindHtml][ngBindHtml]               |      `ng`,`TAB`  | HTML Attribute |
