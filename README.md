@@ -774,6 +774,15 @@ be nice to integrate
 [jQuery]: https://github.com/Kronuz/SublimeCodeIntel/blob/master/libs/codeintel2/catalogs/jquery.cix
 [SublimeErl]: https://github.com/ostinelli/SublimErl
 
+## Making Contributions
+
+* When editing `.sublime-snippets` files, __always__ use real tab characters for
+indentation on a newline following a crlf/lf.  Sublime will automatically insert
+spaces if your user settings specify spacing for indentation.
+
+* Write CoffeeScript that will pass coffeelint
+
+
 ## Thanks
 
 Original inspiration was from the [AngularJS tmbundle][tmbundle], which was
