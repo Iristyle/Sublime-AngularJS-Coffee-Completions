@@ -24,14 +24,21 @@ required in HTML. (This is potentially related to other installed packages)
 
 ### Automatic
 
-As soon as the pull request is accepted
-Use [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
-and select `AngularJS (CoffeeScript)`
+Ensure that you have installed Sublime Package Control following [these instructions][SublimePackage]
+
+Open the Sublime command palette with `Ctrl + Shift + P`, type / select `Package Control: Install Package`,
+then from the package control list, type / select `AngularJS (CoffeeScript)`
+
+Note that packages are auto-updating, so as new modifications are made they will automatically be installed.
+
+[Sublime]: http://www.sublimetext.com/dev
+[SublimePackage]: http://wbond.net/sublime_packages/package_control/installation
+
 
 ### Manual tweaking of Package Control
 
-Package control can be pointed at this GitHub repository until this package is
-made available through the main directory.
+This is not recommended, but Package control can be pointed directly at this 
+GitHub repository rather than using the registry.
 Add to `Packages\User\Package Control.sublime-settings`, under the appropriate
 keys in the JSON config file.
 
