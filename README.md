@@ -83,14 +83,30 @@ must be added to the `Preferences.sublime-settings` file.  This file can be open
 by the `Preferences` -> `Settings -- User` menu item.
 
 ```javascript
-"auto_complete_triggers":
-[
-	{
-		"characters": "$",
-		"selector": "source.coffee, source.js, source.js.embedded.html"
-	}
-]
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "$",
+			"selector": "source.coffee, source.js, source.js.embedded.html"
+		}
+	]
+}
 ```
+
+If you want to disable duplicate `$`s from showing up in the editor when completing,
+then you must change the default `word_separators` to the following, in the same user
+`Preferences.sublime-settings`
+
+```javascript
+{
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+}
+```
+
+__NOTE:__ `auto_complete_triggers` and `word_separators` are siblings in the same JSON
+config object.
+
 
 #### CoffeeScript
 
@@ -105,10 +121,6 @@ it from doing a couple of things that would help us out:
 
 * Filtering within the completions overlay doesn't work right when the `$`
 character is involved.
-
-* [Sublime completions][completions] are provided for all `$` prefixed services,
-but using `TAB` within the completion menu seems to insert two `$$` characters
-instead of just the one.  Presently investigating this.
 
 * There is no way to add names to a completion like you can for a snippet, so
 the `Ctrl + Space` overlay only shows identifiers.
