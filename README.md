@@ -78,6 +78,20 @@ to provide single key combo access to all the currently available snippets.
 ]
 ```
 
+To allow for the `$` character to trigger the menu automatically, the following
+must be added to the `Preferences.sublime-settings` file.  This file can be opened
+by the `Preferences` -> `Settings -- User` menu item.
+
+```javascript
+"auto_complete_triggers":
+[
+	{
+		"characters": "$",
+		"selector": "source.coffee, source.js, source.js.embedded.html"
+	}
+]
+```
+
 #### CoffeeScript
 
 The bindings have been selected so that they don't interfere with the standard
@@ -89,17 +103,12 @@ CoffeeScript bindings, namely `=`, `-`, `cla`, `log`, `elif`, `el`, `if`, `ifel`
 Unfortunately there are a couple of issues with Sublime at the moment preventing
 it from doing a couple of things that would help us out:
 
-* Hitting `$` will not bring up the completion dropdown like it will for other
-characters - it won't show anything from .sublime-completions files OR
-.sublime-snippet files.  Use `Ctrl + Space` to bring up the completions menu.
-
 * Filtering within the completions overlay doesn't work right when the `$`
 character is involved.
 
 * [Sublime completions][completions] are provided for all `$` prefixed services,
-but using `TAB` within the completion menu will not insert *any* text into the
-document (boo!).  Right now, they serve only as inline documentation - no saved
-keystrokes.
+but using `TAB` within the completion menu seems to insert two `$$` characters
+instead of just the one.  Presently investigating this.
 
 * There is no way to add names to a completion like you can for a snippet, so
 the `Ctrl + Space` overlay only shows identifiers.
